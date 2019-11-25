@@ -1,8 +1,13 @@
 <template>
-  <div>
-    <h1>Home</h1>
-    <p>Here is some information. This is the home page</p>
-  </div>
+  <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-12">
+                <h1>Meal Preppr</h1>
+                <p>Organize your food</p>
+                <p>Organize your life</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>

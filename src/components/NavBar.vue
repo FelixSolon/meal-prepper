@@ -30,11 +30,6 @@ export default {
         return {
         links: [
             {
-            id: 0,
-            text: 'Hello World',
-            page:'/HelloWorld'
-            },
-            {
             id: 1,
             text: 'Home',
             page:'/'

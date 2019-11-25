@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <h1>About</h1>
-    <p>Here is some information. This is the about page</p>
-  </div>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-12">
+                <h1>About</h1>
+                <p>Here is some information. This is the about page</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
