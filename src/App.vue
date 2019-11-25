@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavBar></NavBar>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  //import HelloWorld from './components/HelloWorld.vue'
+  import NavBar from './components/NavBar.vue'
+  import Home from './pages/Home'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      Home,
+      NavBar
+    }
   }
-}
 </script>
 
 <style>
@@ -23,6 +26,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-image: url("../public/anise-aroma-art-277253.jpg");
+  background-size: 100%;
+  height: 100vh;
+  box-sizing: border-box;
 }
 </style>
