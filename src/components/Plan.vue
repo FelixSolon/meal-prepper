@@ -4,13 +4,15 @@
             <div class="jumbotron col-md-12">
                 <h1>Plan</h1>
                 <p>Here is some information. This is the Plan page</p>
-                <div v-for="day in 7">{{day}}</div>
+                <div style="display: inline-block; padding: 10px; border: solid 1px black;" v-for="day in 7">{{moment().add(date, "day")}}</div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
   name: 'Contact',
   data(){
